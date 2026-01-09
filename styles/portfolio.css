@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*shared style*/
+.font-open-sens{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.color-name{
+    color: #FD6E0A;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/*main style*/
+header{
+    background-color: #FFF8F3;
+    padding-top: 51px;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    text-decoration: none;
+}
